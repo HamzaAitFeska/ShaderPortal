@@ -6444,9 +6444,6 @@ MonoBehaviour:
     - model: {fileID: 8926484042661615344}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 0}
-      id: 0
-      isStickyNote: 1
     - model: {fileID: 8926484042661615378}
       id: 0
       isStickyNote: 0
@@ -6464,9 +6461,6 @@ MonoBehaviour:
     - model: {fileID: 8926484042661615360}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 0}
-      id: 1
-      isStickyNote: 1
   - title: Base Height Collision
     position:
       serializedVersion: 2
@@ -6526,42 +6520,7 @@ MonoBehaviour:
     - model: {fileID: 8926484042661615505}
       id: 0
       isStickyNote: 0
-  stickyNoteInfos:
-  - title: Categorizing particles
-    position:
-      serializedVersion: 2
-      x: 547
-      y: 1720
-      width: 475
-      height: 320
-    contents: 'We are categorizing particles in two groups: core sparks and travelling
-      sparks.
-
-      Based on a 0.05 probability.
-
-
-      This will affect the lifetime.
-
-      Also,
-      for the travelling sparks, we use the height mask to scale their lifetime up
-      to 5 times for particles close to the ground.'
-    theme: Classic
-    textSize: Medium
-  - title: Height Mask
-    position:
-      serializedVersion: 2
-      x: -1060
-      y: 1957
-      width: 404
-      height: 264
-    contents: 'We generate a (0..1) mask based particle elevation.
-
-
-      It is
-      then used to categorize particles and to cancel turbulence noise for particles
-      close to the ground.'
-    theme: Classic
-    textSize: Medium
+  stickyNoteInfos: []
   categories: []
   uiBounds:
     serializedVersion: 2
